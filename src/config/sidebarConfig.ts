@@ -93,10 +93,10 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				// 折叠阈值：当标签数量超过>10个时自动折叠
 				collapseThreshold: 10,
 			},
-		}，
+		},
 		{
 			// 组件类型：广告栏组件 1
-			输入: "advertisement",
+			type: "advertisement",
 			// 是否启用该组件
 			enable: false,
 			// 组件位置
@@ -112,7 +112,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	rightComponents: [
 		{
 			// 组件类型：站点统计组件
-			输入: "stats",
+			type: "stats",
 			// 是否启用该组件
 			enable: true,
 			// 组件位置
